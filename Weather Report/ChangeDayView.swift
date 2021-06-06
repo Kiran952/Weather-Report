@@ -6,3 +6,15 @@
 //
 
 import Foundation
+import SwiftUI
+
+
+//interface == protocol example View
+
+
+struct ChangeDayView: View {
+    
+    var body: some View {
+        return Color.red
+    }
+}
