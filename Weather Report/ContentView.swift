@@ -40,7 +40,6 @@ struct ContentView: View {
                     WeatherDayView(dayOfWeek: "SAT",
                                    imageName:  "cloud.fill",
                                    temperature: 45)
-
                 }
                 
                 Spacer()   //A flexible space that expands stack layout, or on both axis if not contained in a stack.
