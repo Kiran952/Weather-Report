@@ -15,6 +15,6 @@ import SwiftUI
 struct ChangeDayView: View {
     
     var body: some View {
-        return Color.red
+        return Color.blue
     }
 }
