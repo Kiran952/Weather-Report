@@ -13,6 +13,7 @@
 		695B1EA3266B77B500501BF9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 695B1EA2266B77B500501BF9 /* Preview Assets.xcassets */; };
 		695B1EAE266B77B600501BF9 /* Weather_ReportTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695B1EAD266B77B600501BF9 /* Weather_ReportTests.swift */; };
 		695B1EB9266B77B600501BF9 /* Weather_ReportUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695B1EB8266B77B600501BF9 /* Weather_ReportUITests.swift */; };
+		B6768D14266D27B500D70263 /* ChangeDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6768D13266D27B500D70263 /* ChangeDayView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		695B1EB4266B77B600501BF9 /* Weather ReportUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Weather ReportUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		695B1EB8266B77B600501BF9 /* Weather_ReportUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather_ReportUITests.swift; sourceTree = "<group>"; };
 		695B1EBA266B77B600501BF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6768D13266D27B500D70263 /* ChangeDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeDayView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				695B1E9F266B77B500501BF9 /* Assets.xcassets */,
 				695B1EA4266B77B500501BF9 /* Info.plist */,
 				695B1EA1266B77B500501BF9 /* Preview Content */,
+				B6768D13266D27B500D70263 /* ChangeDayView.swift */,
 			);
 			path = "Weather Report";
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				695B1E9E266B77B400501BF9 /* ContentView.swift in Sources */,
+				B6768D14266D27B500D70263 /* ChangeDayView.swift in Sources */,
 				695B1E9C266B77B400501BF9 /* Weather_ReportApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

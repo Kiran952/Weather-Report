@@ -10,8 +10,7 @@ import SwiftUI
 struct ContentView: View {
     
     @State private var isNight = false //present state based on bullion
-    
-    
+        
     var body: some View {
         ZStack {  //background view
             BackgroundView(isNight: $isNight)  //binding the BackgroundView see below
@@ -119,7 +118,6 @@ struct MainWeatherStatusView : View {
     var imageName:String
     var temperature: Int
 
-    
     var body:some View{
         VStack(spacing :10) {   //for cloud image
             Image(systemName: imageName) //from sf symbols
