@@ -13,30 +13,30 @@ struct ContentView: View {
         
     var body: some View {
         ZStack {  //background view
-            backgroundView(isNight: $isNight)  //binding the BackgroundView see below
+            BackgroundView(isNight: $isNight)  //binding the BackgroundView see below
             VStack{
-                cityTextView(cityName: "Tirupati, IND")
+                CityTextView(cityName: "Tirupati, IND")
                 
                 MainWeatherStatusView(imageName: isNight ? "moon.stars.fill" : "cloud.sun.fill", temperature: 76)
 
                 HStack(spacing: 20) {
-                    weatherDayView(dayOfWeek: "TUE",
+                    WeatherDayView(dayOfWeek: "TUE",
                                    imageName: "cloud.heavyrain",
                                    temperature: 74)
                     
-                    weatherDayView(dayOfWeek: "WED",
+                    WeatherDayView(dayOfWeek: "WED",
                                    imageName: "wind",
                                    temperature: 88)
                     
-                    weatherDayView(dayOfWeek: "THR",
+                    WeatherDayView(dayOfWeek: "THR",
                                    imageName:"snow",
                                    temperature: 55)
                     
-                    weatherDayView(dayOfWeek: "FRI",
+                    WeatherDayView(dayOfWeek: "FRI",
                                    imageName: "sun.max",
                                    temperature: 69)
     
-                    weatherDayView(dayOfWeek: "SAT",
+                    WeatherDayView(dayOfWeek: "SAT",
                                    imageName:  "cloud.fill",
                                    temperature: 45)
                 }
@@ -46,7 +46,7 @@ struct ContentView: View {
                     isNight.toggle()
                 
                 } label:{
-                    weatherButton(title: "Change Day Time ",
+                    WeatherButton(title: "Change Day Time ",
                                   textColor: .blue,
                                   backgroundColor: .white)
 
