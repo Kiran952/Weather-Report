@@ -19,8 +19,8 @@ struct cityTextView: View {
  }
 }
 
-//struct CityTextView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        cityTextView(cityName: "tpt")
-//    }
-//}
+struct CityTextView_Previews: PreviewProvider {
+    static var previews: some View {
+        cityTextView(cityName: "Tirupathi")
+    }
+}

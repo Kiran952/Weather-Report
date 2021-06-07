@@ -30,8 +30,8 @@ struct weatherDayView: View {
     }
 }
 
-//struct WeatherDayView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        weatherDayView()
-//    }
-//}
+struct WeatherDayView_Previews: PreviewProvider {
+    static var previews: some View {
+        weatherDayView(dayOfWeek: "mon", imageName: "sun.fill", temperature: 90)
+    }
+}

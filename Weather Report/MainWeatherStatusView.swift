@@ -32,8 +32,8 @@ struct MainWeatherStatusView : View {
 }
 
 
-//struct MainWeatherStatusView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        MainWeatherStatusView(imageName: "sun.fill", temperature: 90)
-//    }
-//}
+struct MainWeatherStatusView_Previews: PreviewProvider {
+    static var previews: some View {
+        MainWeatherStatusView(imageName: "cloud.rain", temperature: 90)
+    }
+}
