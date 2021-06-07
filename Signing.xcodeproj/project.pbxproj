@@ -87,8 +87,6 @@
 		695B1E8F266B77B400501BF9 = {
 			isa = PBXGroup;
 			children = (
-				699E6523266DF7AE006FCB14 /* WeatherDayView.swift */,
-				699E6521266DF5D2006FCB14 /* CityTextView.swift */,
 				695B1E9A266B77B400501BF9 /* Weather Report */,
 				695B1EAC266B77B600501BF9 /* Weather ReportTests */,
 				695B1EB7266B77B600501BF9 /* Weather ReportUITests */,
@@ -109,6 +107,8 @@
 		695B1E9A266B77B400501BF9 /* Weather Report */ = {
 			isa = PBXGroup;
 			children = (
+				699E6521266DF5D2006FCB14 /* CityTextView.swift */,
+				699E6523266DF7AE006FCB14 /* WeatherDayView.swift */,
 				695B1E9B266B77B400501BF9 /* Weather_ReportApp.swift */,
 				695B1E9D266B77B400501BF9 /* ContentView.swift */,
 				699E651F266DF538006FCB14 /* BackgroundView.swift */,
