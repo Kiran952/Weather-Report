@@ -19,6 +19,7 @@
 		699E6522266DF5D2006FCB14 /* CityTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699E6521266DF5D2006FCB14 /* CityTextView.swift */; };
 		699E6524266DF7AE006FCB14 /* WeatherDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699E6523266DF7AE006FCB14 /* WeatherDayView.swift */; };
 		B6768D14266D27B500D70263 /* ChangeDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6768D13266D27B500D70263 /* ChangeDayView.swift */; };
+		B6DA44BB267798DF009216C6 /* Rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DA44BA267798DF009216C6 /* Rectangle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		699E6521266DF5D2006FCB14 /* CityTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityTextView.swift; sourceTree = "<group>"; };
 		699E6523266DF7AE006FCB14 /* WeatherDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDayView.swift; sourceTree = "<group>"; };
 		B6768D13266D27B500D70263 /* ChangeDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeDayView.swift; sourceTree = "<group>"; };
+		B6DA44BA267798DF009216C6 /* Rectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 		695B1E9A266B77B400501BF9 /* Weather Report */ = {
 			isa = PBXGroup;
 			children = (
+				B6DA44BF267798E8009216C6 /* Models */,
 				699E6521266DF5D2006FCB14 /* CityTextView.swift */,
 				699E6523266DF7AE006FCB14 /* WeatherDayView.swift */,
 				695B1E9B266B77B400501BF9 /* Weather_ReportApp.swift */,
@@ -146,6 +149,14 @@
 				695B1EBA266B77B600501BF9 /* Info.plist */,
 			);
 			path = "Weather ReportUITests";
+			sourceTree = "<group>";
+		};
+		B6DA44BF267798E8009216C6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B6DA44BA267798DF009216C6 /* Rectangle.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,6 +291,7 @@
 				699E6524266DF7AE006FCB14 /* WeatherDayView.swift in Sources */,
 				699E6520266DF538006FCB14 /* BackgroundView.swift in Sources */,
 				699E651E266DF4C8006FCB14 /* MainWeatherStatusView.swift in Sources */,
+				B6DA44BB267798DF009216C6 /* Rectangle.swift in Sources */,
 				695B1E9E266B77B400501BF9 /* ContentView.swift in Sources */,
 				B6768D14266D27B500D70263 /* ChangeDayView.swift in Sources */,
 				699E6522266DF5D2006FCB14 /* CityTextView.swift in Sources */,
