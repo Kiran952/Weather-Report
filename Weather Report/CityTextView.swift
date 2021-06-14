@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct cityTextView: View {
+struct CityTextView: View {
     
     var cityName : String
     
@@ -21,6 +21,6 @@ struct cityTextView: View {
 
 struct CityTextView_Previews: PreviewProvider {
     static var previews: some View {
-        cityTextView(cityName: "Tirupathi")
+        CityTextView(cityName: "Tirupathi")
     }
 }

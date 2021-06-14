@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct backgroundView: View {
+struct BackgroundView: View {
     
     @Binding var isNight: Bool
         

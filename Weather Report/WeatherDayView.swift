@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct weatherDayView: View {
+struct WeatherDayView: View {
     
     var dayOfWeek :String
     var imageName:String
@@ -32,6 +32,6 @@ struct weatherDayView: View {
 
 struct WeatherDayView_Previews: PreviewProvider {
     static var previews: some View {
-        weatherDayView(dayOfWeek: "mon", imageName: "sun.fill", temperature: 90)
+        WeatherDayView(dayOfWeek: "mon", imageName: "sun.fill", temperature: 90)
     }
 }
