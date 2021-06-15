@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import SwiftUI
+
 
 //mutating - which can be modified
 //immutatble - which cant be modified - struct is an immutable

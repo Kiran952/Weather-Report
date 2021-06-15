@@ -16,7 +16,7 @@ struct WeatherDayView: View {
     var body: some View {
         VStack {
             Text(dayOfWeek)
-                .font(.system(size: 16,weight: .medium,design: .default))
+                .font(.system(size: 16,weight: .medium, design: .rounded))
                 .foregroundColor(.white)
             Image(systemName: imageName)//from sf symbols
                 .renderingMode(.original)  //for to get orginal logo color

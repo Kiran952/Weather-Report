@@ -16,7 +16,7 @@ struct CityTextView: View {
             .font(.system(size: 32, weight: .medium,design:.default))
             .foregroundColor(.white)
             .padding()
- }
+    }
 }
 
 struct CityTextView_Previews: PreviewProvider {
@@ -24,3 +24,4 @@ struct CityTextView_Previews: PreviewProvider {
         CityTextView(cityName: "Tirupathi")
     }
 }
+
